@@ -5,37 +5,46 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>ToDo</title>
 </head>
 
 <body>
   <header>
-    <img src="check20 1.png" alt="">
+    <a class="logo" href="index.html">
+      <img src="img/My-logo.jpg" alt="">
     <h1>ToDo</h1>
+    </a>
     <nav>
       <ul>
         <li><a href="index.html">Home</a></li>
-        <li><a href="">About us</a></li>
+        <li><a href="about.html">About us</a></li>
       </ul>
     </nav>
   </header>
   <main>
-    <section>
-      <h2>Malek Alsheekh Hasan</h2>
-      <p>I'm Malek Alsheekh Hasan Computer Engineering I'm looking to be super Software
-        Engineer and Problem Solver. <br>
-        I'm enjoying with coding and fixing bugs.</p>
+    <section class="profile">
+      <div class="profile-img">
+        <img src="img/Waist bag-pana.png" alt="">
+      </div>
+  <div class="personal-data">
+    <h2 class="name">Malek Alsheekh Hasan</h2>
+    <p>I'm Malek Alsheekh Hasan.I'm 22 years old.I'm Computer Engineer looking to be senior Software
+      Engineer and Problem Solver. <br>
+      I'm enjoying with coding and fixing bugs.</p>
+  </div>
     </section>
     <section>
       <form action="">
-        <label for="">Name :</label>
+        <label for="">Full Name :</label>
         <input type="text" placeholder="Your Name">
         <label for="">Email :</label>
         <input type="text" placeholder="example@example.com">
         <label for="">Message :</label>
         <textarea name="Message" id="" cols="30" rows="10" placeholder="Write Your Message...."></textarea>
+        <button type="submit">Submit</button>
       </form>
-      <button type="submit">Submit</button>
     </section>
   </main>
   <footer>
