@@ -45,10 +45,28 @@ main {
   margin-top: 1rem;
   width: 100%;
 }
+.profile{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.profile .profile-img{
+  width:30vw;
+}
+.profile-img img{
+  width: 80%;
+  border-radius: 50%;
+  margin-top: 3rem;
+}
 h2 {
   text-align: center;
   font-size: 2rem;
   padding: 2rem 0;
+}
+.name{
+  color: crimson;
+  font-size: 2.5rem;
 }
 table {
   margin: auto;
@@ -72,6 +90,34 @@ table td div {
 .bg-green {
   background-color: green;
 }
+
+section form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom:4rem ;
+}
+form label{
+  margin-right: 4rem;
+  
+}
+form input,textarea{
+  width: 40vw;
+  margin: 1rem 0;
+  border: 2px solid black;
+  padding: 1rem;
+  border-radius: 10px;
+}
+button{
+  padding: 0.5rem 1.5rem;
+  background-color: firebrick;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  cursor: pointer;
+}
 /* ending style with main section */
 
 /* starting style with footer section */
@@ -81,7 +127,7 @@ footer {
   left: 0;
   right: 0;
   text-align: center;
-  padding: 1rem;
+  padding: 0.5rem;
   color: #fff;
   background-color: black;
 }
