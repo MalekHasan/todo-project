@@ -5,21 +5,26 @@
   <meta charset="UTF-8" />
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
   <title>ToDo App</title>
 </head>
 
 <body>
   <header>
-    <img src="check20 1.png" alt="">
+    <a class="logo" href="">
+      <img src="img/My-logo.jpg" alt="">
     <h1>ToDo</h1>
+    </a>
     <nav>
       <ul>
-        <li><a href="">Home</a></li>
+        <li><a href="#">Home</a></li>
         <li><a href="about.html">About us</a></li>
       </ul>
     </nav>
   </header>
   <main>
+    <h2>ToDo List</h2>
     <table>
       <tr>
         <th>Task</th>
@@ -29,25 +34,28 @@
         <tr>
           <td>
             Code Challenge
+            <input type="checkbox" name="" id="">
           </td>
           <td>
-            <input type="checkbox" name="" id="">
+              <div class="bg-green"></div>
           </td>
         </tr>
         <tr>
           <td>
             Build HTML template
+            <input type="checkbox" name="" id="">
           </td>
           <td>
-            <input type="checkbox" name="" id="">
+              <div class="bg-red"></div>
           </td>
         </tr>
         <tr>
           <td>
             Learn CSS
+            <input type="checkbox" name="" id="">
           </td>
           <td>
-            <input type="checkbox" name="" id="">
+              <div class="bg-red"></div>
           </td>
         </tr>
       </tbody>
