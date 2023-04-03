@@ -2,6 +2,10 @@
 a {
   text-decoration: none;
 }
+a:hover{
+  color: #34a7fa;
+  transition: all 0.15s ease-in;
+}
 /* starting style with header section */
 header {
   background-color: black;
